@@ -1,7 +1,7 @@
 import { browser } from "@wdio/globals";
 import { expect } from "expect-webdriverio";
 
-describe("Home page", () => {
+describe("Amazon website Home Page", () => {
   before("Access and verify url and title", async () => {
     await browser.url("/");
     await expect(browser).toHaveUrl("https://www.amazon.com/");
