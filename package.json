@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npx wdio run ./wdio.conf.js",
     "wdio": "wdio run ./wdio.conf.js",
-    "test": "wdio wdio.conf.js --spec ./specs/login.e2e.js"
+    "test": "wdio wdio.conf.js --spec ./specs/register.e2e.js"
   },
   "dependencies": {
     "@wdio/spec-reporter": "^9.0.8",

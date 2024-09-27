@@ -1,0 +1,29 @@
+[
+  {
+    "first_name": "test",
+    "last_name": "one",
+    "email": "test11111dsd@test.com",
+    "phone": "0123456789",
+    "password": "1234567890poiuytrdesa",
+    "confirm_password": "1234567890poiuytrdesa",
+    "error_msg": "Password must be between 4 and 20 characters!"
+  },
+  {
+    "first_name": "test",
+    "last_name": "two",
+    "email": "test-two@test.com",
+    "phone": "0123456789",
+    "password": "123",
+    "confirm_password": "123",
+    "error_msg": "Password must be between 4 and 20 characters!"
+  },
+  {
+    "first_name": "test",
+    "last_name": "three",
+    "email": "test-three@test.com",
+    "phone": "0123456789",
+    "password": "1234",
+    "confirm_password": "abc",
+    "error_msg": "Password confirmation does not match password!"
+  }
+]

@@ -22,7 +22,7 @@ describe("login page", () => {
     await LoginPage.getSuccessMessage("Secure Area");
 
     await LoginPage.logoutButton.click();
-    //Im usin Page Oriented Models  and the class is stored in test/pages/login
+    //Im usin Page Object Models  and the class is stored in test/pages/login
   });
 
   it("user login with wrong credentials", async () => {
