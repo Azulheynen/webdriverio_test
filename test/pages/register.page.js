@@ -33,6 +33,11 @@ class registerPage {
   get passwordConfirmTextBox() {
     return $("#input-confirm");
   }
+
+  get errorMsg() {
+    return $(".text-danger");
+  }
+
   get radioButton() {
     return $("label.custom-control-label");
   }
@@ -96,6 +101,10 @@ class registerPage {
     await expect(url).toContain(
       "https://ecommerce-playground.lambdatest.io/index.php?route=account/login"
     );
+  }
+
+  getErrorMessage() {
+    return this.errorMsg.getText();
   }
 }
 

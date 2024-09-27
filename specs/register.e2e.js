@@ -20,7 +20,10 @@ describe("lambda test for register user", () => {
         data.password,
         data.confirm_password
       );
-      console.log("i did it");
+      await browser.pause(2000);
+
+      const error_msg = await registerPage.getErrorMessage();
+      await expect(error_msg).toEqual(data.error_msg);
     });
   });
 });
